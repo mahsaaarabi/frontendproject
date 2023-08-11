@@ -47,8 +47,8 @@ li {
   top: 0;
   left: 0;
   z-index: 10;
-  background: #a4e40a;
-  background: linear-gradient(270deg, #a4e40a, #7ab762);
+  background: #9708CC;
+  background: linear-gradient(270deg, #9708CC, #43CBFF);
 }
 #header .main-header {
   width: 100%;
@@ -231,4 +231,16 @@ li {
 img {
   width: 200px;
   height: 200px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: #B2DFDB;
+    width: 100%;
+    padding: 20px 10px 19px 10px;
 }
