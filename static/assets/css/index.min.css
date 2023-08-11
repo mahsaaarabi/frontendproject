@@ -1,0 +1,166 @@
+html{
+    width: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "vazir";
+    src: url("../../fount/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.ttf")format("truetype"),
+    url("../../fount/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.eot")format("eot"),
+    url("../../fount/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.woff")format("woff"),
+    url("../../fount/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.woff2")format("woff2");
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: "vazir";
+}
+.container{
+
+    margin-inline: auto ;
+    width: 80%;
+    
+}
+#header{
+    background-color: #72DCAA;
+}
+#header .main-header{
+    padding-block: 1rem;
+    
+}
+#header .logo {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+#header .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#header .search{
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+#header .search input{
+    width: 100%;
+    padding: 1.5rem 1rem 1.5rem 7rem;
+    outline: none;
+    border: none;
+}
+#header .search .btn{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 6rem;
+    height: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer; 
+    background-color: aliceblue;
+    border-right: 1px solid #ccc;
+}
+#header .search .btn i{
+    font-size: 30px ; 
+}
+/*end header*/
+.slider{
+    margin-top: 3rem;
+}
+.slider  .main-slider{
+    width: 100%;
+    height: 300px;
+    
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.slider .main-slider .swiper-button-prev,
+.slider .main-slider .swiper-button-next{
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -ms-border-radius: 50% 50% 50% 50%;
+    -o-border-radius: 50% 50% 50% 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out ;
+    -o-transition: all 0.3s ease-in-out;
+}
+.slider .main-slider .swiper-button-prev:hover,
+.slider .main-slider .swiper-button-next:hover{
+    background-color: blue;
+}
+
+.slider .main-slider .swiper-button-prev::after,
+.slider .main-slider .swiper-button-next::after{
+    font-size: 2rem;
+    color: blue;
+}
+#slider .main-slider .swiper-button-prev:hover::after,
+#slider .main-slider .swiper-button-next:hover::after {
+color: #fff;
+} 
+#catagory{
+    margin-top: 3rem;
+}
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#catagory .graid-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+#catagory .graid-item li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0rem 5px 1rem rgba(0, 0, 0, .3) ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+#category .grid-item li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 1rem;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
