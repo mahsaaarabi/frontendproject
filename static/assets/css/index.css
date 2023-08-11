@@ -43,6 +43,10 @@ li {
   width: 80%;
 }
 #header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
   background: #a4e40a;
   background: linear-gradient(270deg, #a4e40a, #7ab762);
 }
@@ -56,20 +60,20 @@ li {
   align-items: center;
 }
 #header .logo {
-    display: flex;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin-left: 10px;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-left: 10px;
 }
 #header .logo img {
   width: 100%;
@@ -94,7 +98,7 @@ li {
 }
 #header .search input {
   width: 100%;
-  padding: 22.5px;
+  padding: 21px;
   outline: none;
   border: none;
   border-radius: 50px;
@@ -102,7 +106,7 @@ li {
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
-  font-family: "Vazir",sans-serif;
+  font-family: "Vazir", sans-serif;
 }
 #header .search .btn {
   position: absolute;
@@ -126,13 +130,13 @@ li {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-#header .search .btn:hover{
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-    background-color: rgb(230,230,230);
+#header .search .btn:hover {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  background-color: rgb(230, 230, 230);
 }
 #header .search .btn i {
   font-size: 30px;
@@ -186,20 +190,20 @@ li {
 #slider .main-slider .swiper-button-next:hover::after {
   color: #3c4ff3;
 }
-#catagory {
+#category {
   margin-top: 3rem;
 }
 .title {
   text-align: center;
   font-size: 2.5rem;
 }
-#catagory .graid-item {
+#category .graid-item {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 2rem;
 }
-#catagory .graid-item li {
+#category .graid-item li {
   display: flex;
   align-items: center;
   flex-direction: column;
