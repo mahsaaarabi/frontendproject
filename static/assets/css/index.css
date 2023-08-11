@@ -1,11 +1,3 @@
-html{
-    width: 10px;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 @font-face {
     font-family: "vazir";
     src: url("../../fount/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.ttf")format("truetype"),
@@ -13,17 +5,26 @@ html{
     url("../../fount/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.woff")format("woff"),
     url("../../fount/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.woff2")format("woff2");
 }
+
+html{
+    width: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "vazir";
+}
 a{
     text-decoration: none;
 }
 li{
     list-style: none;
 }
-body{
-    font-family: "vazir";
-}
 .container{
-
     margin-inline: auto ;
     width: 80%;
     
@@ -78,7 +79,7 @@ body{
     font-size: 30px ; 
 }
 /*end header*/
-.slider{
+#slider{
     margin-top: 3rem;
 }
 .slider  .main-slider{
@@ -90,6 +91,11 @@ body{
     width: 100%;
     height: 100%;
     object-fit:cover;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
 }
 .slider .main-slider .swiper-button-prev,
 .slider .main-slider .swiper-button-next{
@@ -110,13 +116,13 @@ body{
 }
 .slider .main-slider .swiper-button-prev:hover,
 .slider .main-slider .swiper-button-next:hover{
-    background-color: blue;
+    background-color: #ffffff;
 }
 
 .slider .main-slider .swiper-button-prev::after,
 .slider .main-slider .swiper-button-next::after{
     font-size: 2rem;
-    color: blue;
+    color: #ffffff;
 }
 #slider .main-slider .swiper-button-prev:hover::after,
 #slider .main-slider .swiper-button-next:hover::after {
