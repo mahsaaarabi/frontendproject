@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="static/assets/css/responsive.css">
   </head>
   <body>
     <!--start-->
@@ -20,7 +21,7 @@
       <div class="container">
         <div class="main-header">
           <a href="#" class="logo">
-            <img src="static/imajes/logo.jpg" alt="logo"
+            <img src="static/images/logo.jpg" alt="logo"
           /></a>
           <form action="" class="search">
             <input type="text" maxlength="20" minlength="1" inputmode="latin" placeholder="میان هزاران محصول جستجو کنید" />
@@ -33,71 +34,554 @@
     </header>
     <!--end-->
     <!--start-->
-    <section class="slider" id="slider">
-      <div class="container">
-        <div class="swiper main-slider">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <img src="static/imajes/first.webp" alt="" />
+    <main>
+      <section class="slider" id="slider">
+        <div class="container">
+          <div class="swiper main-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="static/images/first.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="static/images/a.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="static/images/f.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="static/images/y.webp" alt="" />
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img src="static/imajes/a.webp" alt="" />
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+          </div>
+        </div>
+      </section>
+      <!--end -->
+      <section class="catagory" id="category">
+        <div class="container">
+          <div class="title">
+            <h1>دسته بندی ها</h1>
+          </div>
+          <div class="text">
+            <p></p>
+          </div>
+          <ul class="grid-item">
+            <li>
+              <a href=""
+                ><img src="static/images/poshak.jpg" alt="" />
+                <h3>پوشاک و بدلیجات</h3></a
+              >
+            </li>
+            <li>
+              <a href="">
+                <img src="static/images/supermarket.jpg" alt="" />
+                <h3>کالاهای سوپر مارکت</h3>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="static/images/dig.jpg" alt="" />
+                <h3>کالای دیجیتال</h3>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://dkstatics-public.digikala.com/digikala-categories/af02140ea60e0fd478b09b279976a095c95615b6_1656161174.png" alt="" />
+                <h3>زیبایی و بهداشتی</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="product-slider">
+        <div class="container">
+          <div class="product-slider">
+            <div class="title2"><h1>ویژه ها</h1></div>
+                <div class="swiper mySwiper product-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">-
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <i class='bx bx-plus'></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img src="static/imajes/f.webp" alt="" />
+          </section>
+          <!-- [end] product slider -->
+          <!-- [start] product slider -->
+          <section id="product-slider" class="most-sells">
+            <div class="container">
+              <div class="product-slider">
+                <div class="title">
+                  <h1>پرفروشترین ها</h1>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper product-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <i class='bx bx-plus'></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>ُ
+          </section>
+          <!-- [end] product slider -->
+          <!-- [start] product slider -->
+          <section id="product-slider" class="daily-sells">
+            <div class="container">
+              <div class="product-slider">
+                <div class="title">
+                  <h1>فروش روز</h1>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper product-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <div class="img">
+                          <img src="static/images/download (2).jpeg" alt="product-image">
+                        </div>
+                        <h3>آجیل</h3>
+                        <div class="price">
+                          <del>19500 <span>تومان</span></del>
+                          <p>16000 <span>تومان</span></p>
+                        </div>
+                        <button>
+                          <i class='bx bxs-shopping-bag'></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="item">
+                        <i class='bx bx-plus'></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img src="static/imajes/y.webp" alt="" />
+      </section>
+      <div class="nav-bottom">
+        <div class="container">
+          <div class="main-nav-bottom">
+            <div class="item">
+              <i class='bx bx-home-alt-2'></i>
+              <p>خانه</p>
+            </div>
+            <div class="item count-box">
+              <i class='bx bx-shopping-bag'></i>
+              <p>سبد خرید</p>
+            </div>
+            <div class="item">
+              <i class='bx bx-user'></i>
+              <p>پروفایل</p>
             </div>
           </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <!-- If we need scrollbar -->
         </div>
       </div>
-    </section>
-    <!--end -->
-    <section class="catagory" id="category">
-      <div class="container">
-        <div class="title">
-          <h1>دسته بندی ها</h1>
-        </div>
-        <div class="text">
-          <p></p>
-        </div>
-        <ul class="grid-item">
-          <li>
-            <a href=""
-              ><img src="static/imajes/poshak.jpg" alt="" />
-              <h3>پوشاک و بدلیجات</h3></a
-            >
-          </li>
-          <li>
-            <a href="">
-              <img src="static/imajes/supermarket.jpg" alt="" />
-              <h3>کالاهای سوپر مارکت</h3>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="static/imajes/dig.jpg" alt="" />
-              <h3>کالای دیجیتال</h3>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="https://dkstatics-public.digikala.com/digikala-categories/af02140ea60e0fd478b09b279976a095c95615b6_1656161174.png" alt="" />
-              <h3>زیبایی و بهداشتی</h3>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+    </main>
     <footer>
         <p> Raya-Team </p><p class="span">Design & Developed By : Mahsa Aarabi</p>
     </footer>
