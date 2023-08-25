@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="static/assets/css/panel.css">
+</head>
+
+<body id="body_panel">
+    <div class="first">
+        <div class="div_panel">
+            <form class="form" action="">
+                <img src="static/images/img-1.jpg" alt="">
+                <p class="text1">ورود</p>
+                <input class="input1" type="text" placeholder="نام کاربری">
+                <input class="input2" type="text" placeholder="رمز عبور">
+                <button class="btn1" type="submit">ثبت</button>
+                <button onclick="SignUp()" class="btn2" type="button">ثبت نام کنید</button>
+            </form>
+        </div>
+        <div class="div_panel2">
+            <form class="form" action="">
+                <img src="static/images/img-1.jpg" alt="">
+                <p class="text1">ثبت نام</p>
+                <input type="text" placeholder="نام کاربری">
+                <input type="password" placeholder="رمز عبور">
+                <input type="password" placeholder="تکرار رمز عبور">
+                <button class="btn1" type="submit">ایجاد حساب کاربری</button>
+                <button onclick="SignIn()" class="btn2" type="button">ورود به حساب کاربری</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function SignIn(){
+            document.querySelector(".div_panel2").style.display = "none";
+            document.querySelector(".div_panel").style.display = "inherit";
+        }
+        function SignUp(){
+            document.querySelector(".div_panel").style.display = "none";
+            document.querySelector(".div_panel2").style.display = "inherit";
+        }
+    </script>
+</body>
+
+</html>

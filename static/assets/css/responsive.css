@@ -1,7 +1,33 @@
-@media screen and(max-width:400px){
-    #header{
-        
-    }
-    
-    
+@media screen and (min-width: 968px) {
+  .nav-bottom {
+    display: none;
+  }
+}
+@media screen and (max-width: 968px) {
+  #header .main-header .main-header-button {
+    display: none;
+  }
+  footer {
+    margin-bottom: 86px !important;
+  }
+}
+@media print {
+  * {
+    display: none;
+  }
+}
+/* IF WINDOW SCHEME OR THEME WAS ON DARK MODE VALUE CHANGE ALL OF THE COLORS AND THEMES VALUE */
+@media (prefers-color-scheme: dark) {
+  :root,
+  * {
+    color: #ffffff !important;
+  }
+  .most-sells,
+  .most-sells button {
+    background-color: aqua !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' viewBox='0 0 325 100'%3E%3Cdefs%3E%3ClinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' id='ssspill-grad'%3E%3Cstop stop-color='hsl(167, 72%25, 60%25)' stop-opacity='1' offset='45%25'%3E%3C/stop%3E%3Cstop stop-color='hsl(167, 72%25, 60%25)' stop-opacity='1' offset='100%25'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='hsl(167, 93%25, 28%25)'%3E%3C/rect%3E%3Cg fill='url(%23ssspill-grad)'%3E%3Crect width='100%25' height='40' fill='hsl(167, 72%25, 60%25)'%3E%3C/rect%3E%3Crect x='0' width='7.69%25' height='59.59024764225469' rx='15'%3E%3C/rect%3E%3Crect x='50' width='7.69%25' height='82.84992684226202' rx='15'%3E%3C/rect%3E%3Crect x='100' width='7.69%25' height='87.51829901284043' rx='15'%3E%3C/rect%3E%3Crect x='150' width='7.69%25' height='74.13168852396805' rx='15'%3E%3C/rect%3E%3Crect x='200' width='7.69%25' height='78.36537821971879' rx='15'%3E%3C/rect%3E%3Crect x='250' width='7.69%25' height='96.61786532575769' rx='15'%3E%3C/rect%3E%3Crect x='300' width='7.69%25' height='90.56008307954826' rx='15'%3E%3C/rect%3E%3C/g%3E%3Cg fill='hsl(167, 93%25, 28%25)'%3E%3Crect x='25' y='12.104615809855742' width='7.69%25' height='60' rx='15'%3E%3C/rect%3E%3Crect x='75' y='16.938111963575437' width='7.69%25' height='60' rx='15'%3E%3C/rect%3E%3Crect x='125' y='26.84416650749039' width='7.69%25' height='60' rx='15'%3E%3C/rect%3E%3Crect x='175' y='7.752728821503007' width='7.69%25' height='60' rx='15'%3E%3C/rect%3E%3Crect x='225' y='17.67683665583433' width='7.69%25' height='60' rx='15'%3E%3C/rect%3E%3Crect x='275' y='25.886879149188637' width='7.69%25' height='60' rx='15'%3E%3C/rect%3E%3C/g%3E%3C/svg%3E");
+  }
+  input::placeholder {
+    color: #ffffff;
+  }
 }
