@@ -1,0 +1,322 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid transparent;
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("../../fount/Vazir-font-v16.1.0/Vazir-font-v16.1.0/Vazir.ttf")
+      format("truetype"),
+    url("../../fount/Vazir-font-v16.1.0/Vazir-font-v16.1.0/Vazir.eot")
+      format("eot"),
+    url("../../fount/Vazir-font-v16.1.0/Vazir-font-v16.1.0/Vazir.woff")
+      format("woff"),
+    url("../../fount/Vazir-font-v16.1.0/Vazir-font-v16.1.0/Vazir.woff2")
+      format("woff2");
+}
+* {
+  font-family: "Vazir";
+}
+.header_one {
+  width: 100%;
+  height: auto;
+  background-color: #865bfb;
+}
+.container {
+  width: 1920px;
+  max-width: 100%;
+}
+.divv {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.div_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.new {
+  display: flex;
+}
+.div_2 {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.div_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+input {
+  outline: none;
+  font-family: "Vazir", sans-serif;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+  margin-bottom: 3px;
+  border: 0 solid transparent;
+  padding: 10px;
+}
+form {
+  width: 90%;
+  /* margin-bottom: 10px; */
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  /* padding: 10px; */
+  flex-direction: row;
+  border-radius: 10px;
+  /* padding-bottom: 10px; */
+}
+.last_div {
+  padding-bottom: 10px;
+}
+button {
+  border: 0 solid transparent;
+  margin-left: 10px;
+  background-color: transparent;
+}
+p {
+  color: white;
+  font-family: "Vasir", sans-serif;
+}
+button i {
+  color: white;
+}
+.last_div i {
+  padding: 10px;
+}
+/*end header*/
+.one_section {
+  /* margin: 0px; */
+  /* padding: 0px; */
+  width: 80%;
+  display: flex;
+  place-content: space-around space-evenly;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.one_section .two {
+  font-family: "Vazir", sans-serif;
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1.7px solid #e8e8e8;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+.one_section .two div {
+  display: flex;
+  align-items: center;
+}
+.one_section .two div > h4,
+i {
+  color: rgb(200, 200, 200);
+}
+.one_section .two div > h4 > span {
+  color: initial;
+}
+.one_section button {
+  width: 100px;
+  border: 1.7px solid #e8e8e8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+  top: 60%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+}
+.one_section .three {
+  font-family: "Vazir", sans-serif;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1.7px solid #e8e8e8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: relative;
+  width: 300px;
+  max-width: 29.8%;
+  height: auto;
+}
+.three ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 90%;
+}
+.three ul button {
+  font-family: "Vazir", sans-serif;
+  position: initial;
+  outline: none;
+  background: #ff4d4d;
+  padding: 10px;
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+  color: white;
+}
+.three ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.twox {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.7px solid #e8e8e8;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.rect {
+  width: 1044px;
+  margin: 0px;
+  padding: 0px;
+  max-width: 68.9%;
+}
+.texter {
+  color: initial;
+  width: 300px;
+  display: flex;
+}
+.texter > span {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.texter > span > b {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgba(200, 200, 200, 1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.texter > span > b:first-child {
+  margin-left: 10px;
+}
+
+.check-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.check-list li:first-child {
+  margin-top: 0px;
+}
+.check-list li {
+  display: flex;
+  margin-top: 20px;
+}
+.check-list li input[type="checkbox"] {
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border: 1.7px solid #e8e8e8;
+  appearance: none;
+}
+.check-list li input[type="checkbox"]:checked {
+  background-color: transparent;
+  border: 1.7px dotted purple;
+}
+.check-list li p {
+  display: flex;
+  color: initial;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0px;
+  justify-content: center;
+  margin: 2px 0px;
+}
+.twox div {
+  display: flex;
+  align-items: center;
+}
+footer {
+  background-color: #865bfb;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.twox h4 {
+  color: rgb(200, 200, 200);
+}
+.twox span {
+  color: black;
+}
